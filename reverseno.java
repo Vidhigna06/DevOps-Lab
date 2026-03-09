@@ -1,12 +1,7 @@
-import java.util.Scanner;
-
 public class reverseno {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int num, reverse = 0;
-
-        System.out.println("Enter a number:");
-        num = sc.nextInt();
+        int num = 1234;
+        int reverse = 0;
 
         while (num != 0) {
             int digit = num % 10;
